@@ -44,7 +44,7 @@ header{
 }
 
 #capa{
-    background-image: url('/img/img-fundo.jpg');
+    background-image: url('img/img-fundo.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -228,7 +228,7 @@ footer{
 /* CSS do HTML dos quartos */
 
 #capa-quartos{
-    background-image: url('/img/img-fundo.jpg');
+    background-image: url('img/img-fundo.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
