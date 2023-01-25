@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    display: flex;
+}
+.menu-nav a{
+    text-decoration: none;
+    padding: 16px;
+    color: #777;
+}
+.menu-nav a:hover{
+    background-color: #029DE0;
+    color: #fff;
+}
+
+#capa{
+    background-image: url('/img/img-fundo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.box-card{
+    width: 450px;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: rgba(49, 156, 135, 0.7);
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+.box-card h1{
+    margin-bottom: 60px;
+}
+#quartos{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #777;
+}
+.desc-quartos{
+    width: 100%;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 60px;
+}
+.img-quartos{ 
+    width: calc(100%/3 - 20px);
+    margin: 10px;
+    border: 2px solid #777;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.img-quartos img{
+    width: 100%;
+    object-fit: cover;
+}
+.img-quartos a{
+    text-decoration: none;
+    color: #777;
+    padding: 20px 0;
+    border-bottom: 4px solid #029DE0;
+    margin-bottom: 60px;
+}
+.img-quartos a:hover{
+    background-color: #57977F;
+    color: white;
+}
+#rotas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    color: #777;
+}
+iframe{
+    width: 100vw;
+    height: 300px;
+    margin-bottom: 60px;
+}
+#sobre{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #777;
+    margin-bottom: 70px;
+}
+.desc-sobre{
+    width: 100%;
+}
+.card-anuncio-sobre{
+    display: flex;
+    flex-direction: row;
+    width: calc(100%/2 - 40px);
+    min-height: 150px;
+    margin: 20px;
+}
+.desc-sobre-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.desc-sobre-card h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.desc-sobre-card p{
+    font-size: 18px;
+}
+.img-sobre{
+    width: 250px;
+}
+.img-sobre img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.rodape{
+    width: 100%;
+}
+.contato{
+    width: 100%;
+    width: calc(100%/4 - 20px);
+    display: flex;
+}
+footer{
+    background-color: #57977F;
+}
