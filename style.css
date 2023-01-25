@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Source Sans Pro;
 }
 
 header{
@@ -19,7 +19,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
 }
 ul{
@@ -35,7 +34,7 @@ ul li{
     color: #777;
 }
 .menu-nav a:hover{
-    background-color: #029DE0;
+    background-color: #57977F;
     color: #fff;
 }
 
@@ -57,10 +56,12 @@ ul li{
     border: 1px solid #fff;
     background-color: rgba(49, 156, 135, 0.7);
     align-items: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #fff;
     text-align: center;
     padding: 30px;
+}
+.box-card h3{
+    font-size: 20px;
 }
 .box-card h1{
     margin-bottom: 60px;
@@ -168,4 +169,44 @@ iframe{
 }
 footer{
     background-color: #57977F;
+}
+
+.rodape{
+    border-bottom: 1px solid #777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+}
+.contato p{
+    font-size: 22px;
+    font-weight: bold;
+}
+.endereco p{
+    font-size: 16px;
+}
+.telefone p{
+    font-size: 16px;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.copy p{
+    color: #fff;
+    font-size: 16px;
+}
+.largura-teste{
+    width: calc(100%/4 - 40px);
+    margin: 10px;
+}
+.largura-teste img{
+    width: 30px;
+    object-fit: cover;
 }
