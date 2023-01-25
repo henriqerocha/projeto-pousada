@@ -35,7 +35,7 @@ ul li{
     color: #777;
 }
 .menu-nav a:hover{
-    background-color: #029DE0;
+    background-color: #57977F;
     color: #fff;
 }
 
@@ -63,6 +63,10 @@ ul li{
     padding: 30px;
 }
 .box-card h1{
+    margin-bottom: 60px;
+}
+.box-card h3{
+    font-size: 20px;
     margin-bottom: 60px;
 }
 #quartos{
